@@ -1,0 +1,12 @@
+{
+    "name": "sjk",
+    "version": "1.0.1",
+    "scripts": {
+        "build-bookmarklet": "uglifyjs -c -m -o build/bookmarklet.js -- src/bookmarklet.js",
+        "build-script": "uglifyjs -c -m -o build/sjk.js -- src/sjk.js",
+        "build": "npm run build-bookmarklet && npm run build-script"
+    },
+    "devDependencies": {
+        "uglify-js": "^3.0.23"
+    }
+}
