@@ -1,6 +1,6 @@
 javascript:(function(){
     var script = document.createElement('script');
-    script.src = '/sjk/build/sjk.js';
+    script.src = 'https://raw.githubusercontent.com/Glenf/sjk/master/build/sjk.js';
     script.asyc = true;
 
     var el = document.createElement('div');
