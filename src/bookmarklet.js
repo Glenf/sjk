@@ -1,6 +1,6 @@
 javascript:(function(){
     var script = document.createElement('script');
-    script.src = 'https://raw.githubusercontent.com/Glenf/sjk/master/build/sjk.js';
+    script.src = 'https://rawgit.com/Glenf/sjk/master/build/sjk.js';
     script.asyc = true;
 
     var el = document.createElement('div');
@@ -14,7 +14,7 @@ javascript:(function(){
     el.style.border = '1px solid #000';
 
     var p = document.createElement('p');
-    p.innerText = 'Ladataan päivitettyä ulkoasua!';
+    p.innerText = 'Ladataan!';
 
     el.appendChild(p);
 
